@@ -10,7 +10,7 @@ Execute python app.py or python3 app.py to get your service up. It will immediat
 
 This service utilizes the following frameworks:
 
-- Langchain: https://www.langchain.com/ for interacting with the LLM.
-- Flask: https://flask.palletsprojects.com/en/3.0.x/ for providing the web service capabilities.
+- [Langchain](https://www.langchain.com/) for interacting with the LLM.
+- [Flask](https://flask.palletsprojects.com/en/3.0.x/): for providing the web service capabilities.
 
 See the [Matrix LLM-Bot](https://github.com/ail3ngrimaldi/matrix-llm-bot) for more information on the overall project.
