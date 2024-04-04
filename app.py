@@ -25,7 +25,7 @@ def chat_completion():
     if prompt_text:
         messages = [
             ("system", "You are a helpful AI bot. Your name is Virto and your surname Bot."),
-            ("human", "Podrias explicarme que es kusama en el ambito de las criptomonedas?"),
+            ("human", prompt_text['body']),
         ]
         prompt = ChatPromptTemplate.from_messages(messages)
         # print(prompt)
